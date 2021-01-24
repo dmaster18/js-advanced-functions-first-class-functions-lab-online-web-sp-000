@@ -9,6 +9,7 @@ const returnLastTwoDrivers = function(arr){
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
+
 function createFareMultiplier(multiplier){
     return function(fair){
         return fair*multiplier
